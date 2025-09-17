@@ -66,3 +66,11 @@ html, body {
   background: var(--primary);
 }
 
+/* Oculta barra en navegadores modernos */
+::-webkit-scrollbar {
+  display: none;
+}
+html, body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE y Edge */
+}
