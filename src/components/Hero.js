@@ -28,7 +28,7 @@ export default function Hero () {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.6, duration: 1 }}
       >
-        💡 “Tu economía, nuestra comunidad”
+        💡 “Un Sabor con Historia”
       </motion.p>
     </section>
   )
