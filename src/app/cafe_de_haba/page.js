@@ -2,9 +2,9 @@
 
 import { useScroll, useTransform } from 'framer-motion'
 import HeroCafe from '@/components/cafeHaba/heroCafe'
-import VentajasSection from '@/components/cafeHaba/ventajasSection'
-import IngredientesSection from '@/components/cafeHaba/IngredientesSection'
-import PreparacionSection from '@/components/cafeHaba/PreparacionSection'
+import VentajasSection from '@/components/cafeHaba/Ventajas'
+import IngredientesSection from '@/components/cafeHaba/Ingredientes'
+import PreparacionSection from '@/components/cafeHaba/Preparacion'
 
 export default function Page () {
   const { scrollY } = useScroll()
