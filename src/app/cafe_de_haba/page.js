@@ -1,7 +1,7 @@
 'use client'
 
 import { useScroll, useTransform } from 'framer-motion'
-import HeroCafeSection from '@/components/cafeHaba/HeroCafe'
+import HeroCafeSection from '@/components/cafeHaba/HeroCafes'
 import VentajasSection from '@/components/cafeHaba/Ventajas'
 import IngredientesSection from '@/components/cafeHaba/Ingredientes'
 import PreparacionSection from '@/components/cafeHaba/Preparacion'
