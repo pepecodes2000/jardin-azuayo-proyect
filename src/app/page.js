@@ -163,6 +163,101 @@ export default function Home () {
           </table>
         </div>
 
+        <Section
+          title='11. Canales de distribución'
+          text='El Café de Haba llegará al consumidor final a través de tres canales principales:
+          (1) ferias locales y comunitarias,
+          (2) tiendas gourmet y cafeterías,
+          (3) venta digital mediante redes sociales y página web.
+          Estos canales permiten abarcar tanto un mercado tradicional como uno moderno y digital.'
+        />
+
+        <Section
+          title='12. Relación con clientes'
+          text='La estrategia de relación se basará en:
+          atención personalizada en ferias,
+          fidelización mediante programas de recompra en tiendas,
+          y comunidad digital activa con recetas, beneficios y cultura ancestral en la web.
+          El objetivo es crear vínculos emocionales y de confianza con los consumidores.'
+        />
+
+        <Section
+          title='13. Aliados estratégicos'
+          text='El proyecto contará con aliados estratégicos para fortalecer su impacto:'
+        />
+        <div className='overflow-x-auto bg-white rounded-xl shadow-md p-4'>
+          <table className='min-w-full text-sm text-left text-gray-700'>
+            <thead className='bg-amber-200'>
+              <tr>
+                <th className='px-4 py-2'>Aliado</th>
+                <th className='px-4 py-2'>Contribución</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className='px-4 py-2 font-semibold'>Cooperativas</td>
+                <td className='px-4 py-2'>Apoyo en financiamiento y comercialización.</td>
+              </tr>
+              <tr className='bg-amber-50'>
+                <td className='px-4 py-2 font-semibold'>Instituciones educativas</td>
+                <td className='px-4 py-2'>Promoción de educación financiera y cultural.</td>
+              </tr>
+              <tr>
+                <td className='px-4 py-2 font-semibold'>Tiendas locales y gourmet</td>
+                <td className='px-4 py-2'>Espacios de venta y posicionamiento.</td>
+              </tr>
+              <tr className='bg-amber-50'>
+                <td className='px-4 py-2 font-semibold'>Gobiernos locales</td>
+                <td className='px-4 py-2'>Impulso a productos ancestrales en ferias y programas comunitarios.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <Section
+          title='14. Estructura de costos'
+          text='La estructura de costos del proyecto incluye insumos, producción y comercialización.
+          Se proyecta mantener un equilibrio entre calidad y precio accesible.'
+        />
+        <div className='overflow-x-auto bg-white rounded-xl shadow-md p-4'>
+          <table className='min-w-full text-sm text-left text-gray-700'>
+            <thead className='bg-amber-200'>
+              <tr>
+                <th className='px-4 py-2'>Categoría</th>
+                <th className='px-4 py-2'>Detalle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className='px-4 py-2 font-semibold'>Materia prima</td>
+                <td className='px-4 py-2'>Compra de haba seleccionada a productores locales.</td>
+              </tr>
+              <tr className='bg-amber-50'>
+                <td className='px-4 py-2 font-semibold'>Producción</td>
+                <td className='px-4 py-2'>Tostado, molienda, empaque y control de calidad.</td>
+              </tr>
+              <tr>
+                <td className='px-4 py-2 font-semibold'>Marketing</td>
+                <td className='px-4 py-2'>Publicidad digital, página web y promoción en ferias.</td>
+              </tr>
+              <tr className='bg-amber-50'>
+                <td className='px-4 py-2 font-semibold'>Distribución</td>
+                <td className='px-4 py-2'>Logística de transporte y almacenamiento.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <Section
+          title='15. Estrategia de marketing'
+          text='La promoción del Café de Haba se enfocará en medios digitales y físicos.
+          En lo digital, se usará la página web oficial
+          junto con redes sociales y campañas de contenido (recetas, cultura, beneficios).
+          En lo físico, se impulsará mediante ferias, degustaciones en tiendas gourmet
+          y alianzas con cooperativas. Esta combinación garantiza visibilidad, confianza
+          y posicionamiento en el mercado.'
+        />
+
       </div>
 
       <div className='flex justify-center'>
@@ -172,7 +267,7 @@ export default function Home () {
             whileTap={{ scale: 0.95 }}
             className='mt-8 inline-block bg-white text-green-600 px-6 py-3 rounded-xl font-semibold shadow-lg hover:bg-gray-100 transition'
           >
-            Comenzar
+            Nuestro producto!!
           </motion.button>
         </Link>
       </div>

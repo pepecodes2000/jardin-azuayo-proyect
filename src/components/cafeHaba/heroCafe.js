@@ -2,9 +2,11 @@
 
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
 export default function HeroCafeSection ({ opacity }) {
   const [blur, setBlur] = useState(0)
+
   useEffect(() => {
     if (!opacity || typeof opacity.onChange !== 'function') return
     // valor inicial
@@ -22,13 +24,24 @@ export default function HeroCafeSection ({ opacity }) {
         opacity,
         filter: `blur(${blur}px)`
       }}
-      className='sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-[#3e2723] to-[#5d4037] text-yellow-100 px-6 z-40'
+      className='sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-[#3e2723] to-[#5d4037] text-yellow-100 px-6 z-40 relative'
     >
+      {/* Fondo con logo */}
+      <div className='absolute inset-0 flex items-center justify-center z-0'>
+        <Image
+          src='/logo.png'
+          alt='Logo Café de Haba'
+          fill
+          className='object-contain opacity-30 pointer-events-none'
+        />
+      </div>
+
+      {/* Contenido principal */}
       <motion.div
         initial={{ y: -200, scale: 0.5, opacity: 0 }}
         animate={{ y: 0, scale: 1, opacity: 1 }}
         transition={{ duration: 2, type: 'spring' }}
-        className='w-28 h-36 bg-gradient-to-b from-[#4e342e] to-[#3e2723] rounded-full shadow-2xl flex items-center justify-center relative'
+        className='w-28 h-36 bg-gradient-to-b from-[#4e342e] to-[#3e2723] rounded-full shadow-2xl flex items-center justify-center relative z-10'
         onAnimationComplete={() => setShowImage(true)}
       >
         {showImage && (
@@ -47,7 +60,7 @@ export default function HeroCafeSection ({ opacity }) {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.5, duration: 1 }}
-        className='text-5xl md:text-8xl font-serif mt-10'
+        className='text-5xl md:text-8xl font-serif mt-10 z-10'
       >
         Café de Haba
       </motion.h1>
@@ -56,7 +69,7 @@ export default function HeroCafeSection ({ opacity }) {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2, duration: 1 }}
-        className='mt-4 text-lg md:text-2xl text-[#d7ccc8] max-w-2xl text-center'
+        className='mt-4 text-lg md:text-2xl text-[#d7ccc8] max-w-2xl text-center z-10'
       >
         Un producto ancestral, nutritivo y libre de cafeína. Vive la tradición con un sabor auténtico de nuestra tierra.
       </motion.p>
