@@ -1,7 +1,7 @@
 'use client'
 
 import { useScroll, useTransform } from 'framer-motion'
-import HeroCafe from '@/components/cafeHaba/HeroCafe'
+import HeroCafeSection from '@/components/cafeHaba/HeroCafe'
 import VentajasSection from '@/components/cafeHaba/Ventajas'
 import IngredientesSection from '@/components/cafeHaba/Ingredientes'
 import PreparacionSection from '@/components/cafeHaba/Preparacion'
@@ -16,7 +16,7 @@ export default function Page () {
 
   return (
     <main className='font-sans text-gray-900 relative overflow-hidden'>
-      <HeroCafe opacity={heroOpacity} />
+      <HeroCafeSection opacity={heroOpacity} />
       <VentajasSection opacity={ventajasOpacity} />
       <IngredientesSection opacity={ingredientesOpacity} />
       <PreparacionSection opacity={preparacionOpacity} />
