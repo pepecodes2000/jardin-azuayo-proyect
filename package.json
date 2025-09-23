@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "check-case": "node check-case.js"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.6",
@@ -21,7 +22,10 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "fast-glob": "^3.3.3",
+    "glob": "^11.0.3",
     "standard": "^17.1.2",
     "tailwindcss": "^4"
-  }
+  },
+  "type": "module"
 }
