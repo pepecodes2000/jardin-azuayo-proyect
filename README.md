@@ -1,6 +1,4 @@
 
-
-````markdown
 # ☕ Proyecto Café de Haba – Emprendimiento Digital 🌱
 
 Este proyecto forma parte de la propuesta de emprendimiento **“Café de Haba”**, desarrollada como iniciativa académica y de innovación.  
@@ -46,7 +44,6 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno local 👇
 ### 1️⃣ Clonar el repositorio
 ```bash
 git clone https://github.com/tu-usuario/jardin-azuayo-proyect.git
-````
 
 ### 2️⃣ Acceder al directorio
 
