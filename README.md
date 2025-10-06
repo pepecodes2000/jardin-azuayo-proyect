@@ -1,36 +1,137 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Perfecto 👌 Aquí tienes el **README.md completo, profesional y funcional**, con todo lo necesario: descripción, links, pasos para correr el proyecto localmente, estructura, tecnologías, próximos pasos, etc.
+Puedes copiarlo y pegarlo directamente en tu repositorio GitHub o en tu proyecto.
 
-## Getting Started
+---
 
-First, run the development server:
+````markdown
+# ☕ Proyecto Café de Haba – Emprendimiento Digital 🌱
+
+Este proyecto forma parte de la propuesta de emprendimiento **“Café de Haba”**, desarrollada como iniciativa académica y de innovación.  
+Su objetivo es **rescatar una bebida ancestral ecuatoriana**, posicionándola en el mercado moderno mediante **tecnología, identidad cultural y sostenibilidad**.
+
+---
+
+## 🌍 Sitios en producción
+
+- 🏠 **Página principal del emprendimiento:**  
+  👉 [https://jardin-azuayo-proyect.vercel.app](https://jardin-azuayo-proyect.vercel.app)
+
+- ☕ **Página del producto “Café de Haba”:**  
+  👉 [https://jardin-azuayo-proyect.vercel.app/cafe_de_haba](https://jardin-azuayo-proyect.vercel.app/cafe_de_haba)
+
+---
+
+## 📖 Descripción general
+
+El proyecto combina diseño web, marketing digital y narrativa de marca para presentar una propuesta innovadora de producto:
+
+- **Identidad cultural:** rescate de una bebida tradicional de la sierra ecuatoriana.  
+- **Salud y sostenibilidad:** alternativa libre de cafeína y con empaques ecológicos.  
+- **Innovación visual:** uso de animaciones interactivas con *Framer Motion* y transiciones suaves.  
+- **Modelo escalable:** pensado para evolucionar hacia una tienda digital o plataforma de promoción rural.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **Next.js 14 (App Router)**
+- **React 18**
+- **Framer Motion** – animaciones y efectos de scroll
+- **Tailwind CSS** – estilos modernos y responsivos
+- **Vercel** – despliegue y hosting gratuito
+
+---
+
+## ⚙️ Instalación y ejecución local
+
+Sigue estos pasos para ejecutar el proyecto en tu entorno local 👇
+
+### 1️⃣ Clonar el repositorio
+```bash
+git clone https://github.com/tu-usuario/jardin-azuayo-proyect.git
+````
+
+### 2️⃣ Acceder al directorio
+
+```bash
+cd jardin-azuayo-proyect
+```
+
+### 3️⃣ Instalar dependencias
+
+```bash
+npm install
+# o si usas yarn
+yarn install
+```
+
+### 4️⃣ Ejecutar el servidor de desarrollo
 
 ```bash
 npm run dev
-# or
+# o
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 5️⃣ Abrir en el navegador
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Visita 👉 **[http://localhost:3000](http://localhost:3000)**
+para visualizar el proyecto localmente.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📁 Estructura del proyecto
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+ ├── app/
+ │   ├── page.js                 → Página principal del emprendimiento
+ │   └── cafe_de_haba/           → Página temática del producto Café de Haba
+ ├── components/
+ │   └── cafeHaba/
+ │        ├── HeroCafe.js        → Sección principal con animación
+ │        ├── Ventajas.js        → Sección de beneficios
+ │        ├── Ingredientes.js    → Sección con tabla e imagen lateral
+ │        └── Preparacion.js     → Sección final con animaciones
+ └── public/
+     ├── logo.png
+     ├── haba.png
+     ├── coffee-cup.png
+     └── otros recursos gráficos
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎯 Objetivo del proyecto
 
-## Deploy on Vercel
+El objetivo principal es **mostrar una propuesta digital atractiva y funcional** que dé a conocer el Café de Haba como producto con **valor social, cultural y de mercado**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+El sitio web servirá como base para una futura **campaña de marketing, promoción y comercialización sostenible**, fortaleciendo la identidad comunitaria.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🧭 Próximos pasos
+
+🔹 Añadir sección de contacto y testimonios
+🔹 Incorporar catálogo de productos con carrito
+🔹 Implementar chatbot informativo con IA
+🔹 Extender el diseño a otros productos locales
+🔹 Optimizar SEO y accesibilidad
+
+---
+
+## 👨‍💻 Desarrollado por
+
+**José Geovanny Mejía Ramos**
+📅 Proyecto académico de emprendimiento digital – 2025
+
+---
+
+> 💬 *“El Café de Haba no solo se bebe, se comparte como historia y tradición.”* ☕✨
+
+```
+
+---
+
+¿Quieres que te prepare una **versión con imágenes previsualizadas** (por ejemplo capturas `<img>` del hero y de la sección de ingredientes) para subirla a GitHub con más estilo? Puedo generarla automáticamente con placeholders o usar capturas reales de tus páginas.
+```
