@@ -1,7 +1,4 @@
-Perfecto 👌 Aquí tienes el **README.md completo, profesional y funcional**, con todo lo necesario: descripción, links, pasos para correr el proyecto localmente, estructura, tecnologías, próximos pasos, etc.
-Puedes copiarlo y pegarlo directamente en tu repositorio GitHub o en tu proyecto.
 
----
 
 ````markdown
 # ☕ Proyecto Café de Haba – Emprendimiento Digital 🌱
@@ -129,9 +126,4 @@ El sitio web servirá como base para una futura **campaña de marketing, promoci
 
 > 💬 *“El Café de Haba no solo se bebe, se comparte como historia y tradición.”* ☕✨
 
-```
-
----
-
-¿Quieres que te prepare una **versión con imágenes previsualizadas** (por ejemplo capturas `<img>` del hero y de la sección de ingredientes) para subirla a GitHub con más estilo? Puedo generarla automáticamente con placeholders o usar capturas reales de tus páginas.
 ```
